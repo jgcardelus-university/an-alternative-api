@@ -1,0 +1,36 @@
+#container {
+	background: rgb(255, 255, 165);
+	width: 75em;
+	height: 100vh;
+	min-width: 75em;
+	max-width: 100em;
+}
+
+header {
+	margin-top: 5em;
+	border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+main {
+	min-height: 80vh;
+}
+
+main > .row {
+	height: 80vh;
+}
+
+#select-post {
+	background: rgb(217, 0, 255);
+}
+
+#window {
+	background: rgb(0, 255, 136);
+}
+
+#not-found-img {
+	max-width: 400px;
+}
+
+.hidden {
+	display: none;
+}

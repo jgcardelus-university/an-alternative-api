@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+
+		<link rel="stylesheet" href="./libs/bootstrap.css" />
+		<link rel="stylesheet" href="./index.css" />
+	</head>
+	<body class="container-fluid">
+		<div class="row justify-content-center">
+			<div col="col" id="container">
+				<div class="row">
+					<div class="col">
+						<header>
+							<h1>Mi blog</h1>
+						</header>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col">
+						<main>
+							<div class="row">
+								<div class="col-4" id="select-post">
+									<div
+										class="row justify-content-center mt-4"
+									>
+										<div class="col-auto">
+											<button
+												id="button-new-entry"
+												type="button"
+												class="btn btn-primary"
+											>
+												Nueva entrada
+											</button>
+										</div>
+									</div>
+
+									<div
+										class="row justify-content-center mt-4"
+									>
+										<div class="col-auto">
+											<div
+												id="list-entries-blog"
+												class="list-group"
+											></div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-8" id="window">
+									<div class="row">
+										<div class="col-12">
+											<div
+												class="window-content"
+												id="blog-entry"
+											>
+												<div class="row">
+													<div class="col">
+														<h1
+															id="blog-entry-title"
+														>
+															Título de prueba
+														</h1>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col">
+														<h3
+															id="blog-entry-author"
+														>
+															Jorge
+														</h3>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col">
+														<p
+															id="blog-entry-comment"
+														>
+															Lorem ipsum dolor
+															sit amet consectetur
+															adipisicing elit.
+															Magnam sed tenetur
+															voluptatum quis,
+															ipsam tempore
+															quibusdam totam
+															vitae eaque ut
+															libero ullam eos
+															inventore laudantium
+															deserunt nisi in
+															ipsa natus.
+														</p>
+													</div>
+												</div>
+											</div>
+
+											<div
+												class="window-content"
+												id="no-entries"
+											>
+												<div class="row">
+													<div class="col">
+														<h1>
+															No hay niguna
+															entrada
+														</h1>
+													</div>
+												</div>
+												<div
+													class="row justify-content-center"
+												>
+													<div class="col-auto">
+														<img
+															id="not-found-img"
+															src="./assets/nothing.svg"
+															alt=""
+														/>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col">
+														<button
+															id="button-new-entry-nothing"
+															class="btn btn-primary"
+														>
+															Añadir nueva entrada
+														</button>
+													</div>
+												</div>
+											</div>
+
+											<div
+												class="window-content"
+												id="new-entry"
+											>
+												<div class="row">
+													<div class="col">
+														<h1>Nueva entrada</h1>
+													</div>
+												</div>
+												<form action="">
+													<div class="row">
+														<div class="col">
+															<div
+																class="form-floating mb-3"
+															>
+																<input
+																	type="text"
+																	class="form-control"
+																	id="input-title"
+																	placeholder=""
+																/>
+																<label
+																	for="input-title"
+																	>Título</label
+																>
+															</div>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col">
+															<div
+																class="form-floating mb-3"
+															>
+																<input
+																	type="text"
+																	class="form-control"
+																	id="input-author"
+																	placeholder=""
+																/>
+																<label
+																	for="input-author"
+																	>Autor</label
+																>
+															</div>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col">
+															<div
+																class="form-floating mb-3"
+															>
+																<textarea
+																	type="text"
+																	class="form-control"
+																	id="input-comments"
+																></textarea>
+																<label
+																	for="input-comments"
+																	>Comentarios</label
+																>
+															</div>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col">
+															<button
+																class="btn btn-primary"
+																id="button-entry-post"
+															>
+																Añadir
+															</button>
+														</div>
+													</div>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</main>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+	<script src="./libs/jquery.js"></script>
+	<script src="./libs/bootstrap.js"></script>
+
+	<!-- <script src="./repaso.js"></script> -->
+	<script src="./index.js"></script>
+</html>
