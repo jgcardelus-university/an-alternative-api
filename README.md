@@ -1,2 +1,2 @@
-# apis
-JS Apis
+# an-alternative-api
+A review of APIs & Promises.
